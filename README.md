@@ -1,15 +1,5 @@
-
-MATLAB functions for three core analyses of naturalistic fMRI using structural connectome harmonics:
-
-1. Individualized graph-spectral decomposition into structure-coupled (`Xc`) and structure-decoupled (`Xd`) time series.
-2. Duration-normalized event energy at ROI, network, and whole-brain levels.
-3. Network-level neural response deviation (NRD), operationalized here as leave-one-out (LOO) mean squared deviation (MSD) of event-averaged spatial patterns.
+Data from the discovery cohort are not publicly available due to ethical and privacy restrictions. The HBN validation data are available through the Healthy Brain Network under its data access requirements. De-identified discovery data may be made available upon reasonable request and subject to relevant approvals.
 
 
-## References and attribution
-
-- Atasoy S, Donnelly I, Pearson J. (2016). *Human brain networks function in connectome-specific harmonic waves.* Nature Communications 7:10340. https://doi.org/10.1038/ncomms10340
-- Preti MG, Van De Ville D. (2019). *Decoupling of brain function from structure reveals regional behavioral specialization in humans.* Nature Communications 10:4747. https://doi.org/10.1038/s41467-019-12765-7
-
-The harmonic methodology follows the graph-spectral framework in these publications. 
-
+Place your own `input.mat` in this directory. The file is ignored by Git.
+See the repository README for variable names, array shapes, and examples.
